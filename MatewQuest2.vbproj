@@ -1,0 +1,934 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27B721FA-5CC2-4907-B801-A68600487784}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>MatewQuest2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MatewQuest2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MatewQuest2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Serialization" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cActionsRouter.vb" />
+    <Compile Include="cBattle.vb" />
+    <Compile Include="cGlobalSeeker.vb" />
+    <Compile Include="cGroups.vb" />
+    <Compile Include="cListManagerClass.vb" />
+    <Compile Include="clsPanelManager.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cMapManager.vb" />
+    <Compile Include="cMatewScript.vb" />
+    <Compile Include="CodeTextBox.designer.vb">
+      <DependentUpon>CodeTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CodeTextBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cRemovedObjects.vb" />
+    <Compile Include="cTrackingProperties.vb" />
+    <Compile Include="cVariable.vb" />
+    <Compile Include="dlgChars.Designer.vb">
+      <DependentUpon>dlgChars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgChars.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgColor.Designer.vb">
+      <DependentUpon>dlgColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgColor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgCopyTo.Designer.vb">
+      <DependentUpon>dlgCopyTo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgCopyTo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgEntrancies.Designer.vb">
+      <DependentUpon>dlgEntrancies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgEntrancies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgFontSize.Designer.vb">
+      <DependentUpon>dlgFontSize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgFontSize.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgImage.Designer.vb">
+      <DependentUpon>dlgImage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgImage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgListHtml.Designer.vb">
+      <DependentUpon>dlgListHtml.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgListHtml.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgMarquee.Designer.vb">
+      <DependentUpon>dlgMarquee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgMarquee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgNewClass.Designer.vb">
+      <DependentUpon>dlgNewClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgNewClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgGenerateHelp.Designer.vb">
+      <DependentUpon>dlgGenerateHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgGenerateHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgExecute.Designer.vb">
+      <DependentUpon>dlgExecute.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgExecute.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgList.Designer.vb">
+      <DependentUpon>dlgList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgFunction.Designer.vb">
+      <DependentUpon>dlgFunction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgFunction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgProperty.Designer.vb">
+      <DependentUpon>dlgProperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgProperty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgRestoreElements.Designer.vb">
+      <DependentUpon>dlgRestoreElements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgRestoreElements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgSetChildrenValue.Designer.vb">
+      <DependentUpon>dlgSetChildrenValue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgSetChildrenValue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgTable.Designer.vb">
+      <DependentUpon>dlgTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLog.Designer.vb">
+      <DependentUpon>frmLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassEditor.designer.vb">
+      <DependentUpon>frmClassEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMagic.Designer.vb">
+      <DependentUpon>frmMagic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMagic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainEditor.Designer.vb">
+      <DependentUpon>frmMainEditor.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMap.Designer.vb">
+      <DependentUpon>frmMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlayer.Designer.vb">
+      <DependentUpon>frmPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeek.Designer.vb">
+      <DependentUpon>frmSeek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modMainCode.vb" />
+    <Compile Include="modMain.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="modPlayer.vb" />
+    <Compile Include="modRPG.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CodeTextBox.resx">
+      <DependentUpon>CodeTextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgChars.resx">
+      <DependentUpon>dlgChars.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgColor.resx">
+      <DependentUpon>dlgColor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgCopyTo.resx">
+      <DependentUpon>dlgCopyTo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgEntrancies.resx">
+      <DependentUpon>dlgEntrancies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgFontSize.resx">
+      <DependentUpon>dlgFontSize.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgImage.resx">
+      <DependentUpon>dlgImage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgListHtml.resx">
+      <DependentUpon>dlgListHtml.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgMarquee.resx">
+      <DependentUpon>dlgMarquee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgNewClass.resx">
+      <DependentUpon>dlgNewClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgGenerateHelp.resx">
+      <DependentUpon>dlgGenerateHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgExecute.resx">
+      <DependentUpon>dlgExecute.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgList.resx">
+      <DependentUpon>dlgList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgFunction.resx">
+      <DependentUpon>dlgFunction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgProperty.resx">
+      <DependentUpon>dlgProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgRestoreElements.resx">
+      <DependentUpon>dlgRestoreElements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgSetChildrenValue.resx">
+      <DependentUpon>dlgSetChildrenValue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgTable.resx">
+      <DependentUpon>dlgTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLog.resx">
+      <DependentUpon>frmLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClassEditor.resx">
+      <DependentUpon>frmClassEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMagic.resx">
+      <DependentUpon>frmMagic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainEditor.en.resx">
+      <DependentUpon>frmMainEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainEditor.resx">
+      <DependentUpon>frmMainEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMap.resx">
+      <DependentUpon>frmMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlayer.resx">
+      <DependentUpon>frmPlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeek.resx">
+      <DependentUpon>frmSeek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\add32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\add37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\arrow_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\arrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\default32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\default64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\delete32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\delete37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\duplicate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\edit32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\edit37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\email32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\load.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\load_old.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\no_image64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\OkAndAdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\resize_E.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\resize_N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\resize_NE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\resize_NW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\resize_S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\resize_SE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\resize_SW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\resize_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\swap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\website32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\execte.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\config.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\bg01.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\bg02.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\bg03.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\def.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\duplicate32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\hidden.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\loc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\cross.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\cross_grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\cross_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\br.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\hr.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\center.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\comment.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\i.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\just.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\left.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\redo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\right.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\u.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\uncomment.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\undo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\sub.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\sup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\abc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\chrOther.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\color.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\copy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\cut.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\e.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\find.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\find_all.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\h1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\h2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\h3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\img.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\list.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\marq.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\p.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\paste.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\table.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\url.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\wrap.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\radar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\space.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\span.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\size.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\qBrackets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\dash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\report-card.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\report2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\edit30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\edit26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\help26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\crossroads64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\Location64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\duplicate26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\add26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\delete26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\ungroup26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\add_group26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\add_group32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\minus26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\plus26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\config16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\chkPropConfig32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\addFunc32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\addProp32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\save32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\editFunc32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\editProp32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\editProp26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\editFunc26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\convetToCode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\ConfigList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\rename26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\return_usual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\SetForAll26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\longText26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\ok32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\menu_items64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\mmnu64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Loc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Mg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Obj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Tim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Bat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Ab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Her.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Med.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Windows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\toHTML32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\Execute2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\basic_functions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\Ab64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\AbSet64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\Magic64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\MagicBook64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\Map64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\MapCells64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\MedAudio64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\MedList64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MCI">
+      <Guid>{C1A8AF28-1257-101B-8FB0-0020AF039CA3}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\generateHelp32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\user classes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\userClass48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\userClass32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\userClass64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Math.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Arr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\defVars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\AW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Cm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\DW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\LW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\MgW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\OW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\CopyTo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\highlight2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\highlight3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\arrow_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\exec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\wrap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\restoreInitial26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\selector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\fullscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Army.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\DefToolButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\src\img\classMenu\Unit.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,3584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SplitOuter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 63</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SplitOuter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSeekBackward.Name" xml:space="preserve">
+    <value>btnSeekBackward</value>
+  </data>
+  <data name="&gt;&gt;btnSeekBackward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSeekBackward.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;btnSeekBackward.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnFindClobal.Name" xml:space="preserve">
+    <value>btnFindClobal</value>
+  </data>
+  <data name="&gt;&gt;btnFindClobal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindClobal.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;btnFindClobal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnSeekForward.Name" xml:space="preserve">
+    <value>btnSeekForward</value>
+  </data>
+  <data name="&gt;&gt;btnSeekForward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSeekForward.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;btnSeekForward.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkSeekWholeWord.Name" xml:space="preserve">
+    <value>chkSeekWholeWord</value>
+  </data>
+  <data name="&gt;&gt;chkSeekWholeWord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSeekWholeWord.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;chkSeekWholeWord.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkSeekCase.Name" xml:space="preserve">
+    <value>chkSeekCase</value>
+  </data>
+  <data name="&gt;&gt;chkSeekCase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSeekCase.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;chkSeekCase.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbSeek.Name" xml:space="preserve">
+    <value>cmbSeek</value>
+  </data>
+  <data name="&gt;&gt;cmbSeek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSeek.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;cmbSeek.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pnlSeek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 140</value>
+  </data>
+  <data name="pnlSeek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 101</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlSeek.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlSeek.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlSeek.Name" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;pnlSeek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSeek.Parent" xml:space="preserve">
+    <value>SplitOuter.Panel1</value>
+  </data>
+  <data name="&gt;&gt;pnlSeek.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Panel1.Name" xml:space="preserve">
+    <value>SplitOuter.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Panel1.Parent" xml:space="preserve">
+    <value>SplitOuter</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SplitInner.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SplitInner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="SplitInner.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Panel1.Name" xml:space="preserve">
+    <value>SplitInner.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Panel1.Parent" xml:space="preserve">
+    <value>SplitInner</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblVariableError.Name" xml:space="preserve">
+    <value>lblVariableError</value>
+  </data>
+  <data name="&gt;&gt;lblVariableError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVariableError.Parent" xml:space="preserve">
+    <value>pnlVariables</value>
+  </data>
+  <data name="&gt;&gt;lblVariableError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgwVariables.Name" xml:space="preserve">
+    <value>dgwVariables</value>
+  </data>
+  <data name="&gt;&gt;dgwVariables.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgwVariables.Parent" xml:space="preserve">
+    <value>pnlVariables</value>
+  </data>
+  <data name="&gt;&gt;dgwVariables.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtVariableDescription.Name" xml:space="preserve">
+    <value>txtVariableDescription</value>
+  </data>
+  <data name="&gt;&gt;txtVariableDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtVariableDescription.Parent" xml:space="preserve">
+    <value>pnlVariables</value>
+  </data>
+  <data name="&gt;&gt;txtVariableDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblVariableDescription.Name" xml:space="preserve">
+    <value>lblVariableDescription</value>
+  </data>
+  <data name="&gt;&gt;lblVariableDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVariableDescription.Parent" xml:space="preserve">
+    <value>pnlVariables</value>
+  </data>
+  <data name="&gt;&gt;lblVariableDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlVariables.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 85</value>
+  </data>
+  <data name="pnlVariables.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 380</value>
+  </data>
+  <data name="pnlVariables.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlVariables.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlVariables.Name" xml:space="preserve">
+    <value>pnlVariables</value>
+  </data>
+  <data name="&gt;&gt;pnlVariables.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlVariables.Parent" xml:space="preserve">
+    <value>SplitInner.Panel2</value>
+  </data>
+  <data name="&gt;&gt;pnlVariables.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Panel2.Name" xml:space="preserve">
+    <value>SplitInner.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Panel2.Parent" xml:space="preserve">
+    <value>SplitInner</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SplitInner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>733, 569</value>
+  </data>
+  <data name="SplitInner.SplitterDistance" type="System.Int32, mscorlib">
+    <value>329</value>
+  </data>
+  <data name="SplitInner.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Name" xml:space="preserve">
+    <value>SplitInner</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.Parent" xml:space="preserve">
+    <value>SplitOuter.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitInner.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Panel2.Name" xml:space="preserve">
+    <value>SplitOuter.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Panel2.Parent" xml:space="preserve">
+    <value>SplitOuter</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SplitOuter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1105, 569</value>
+  </data>
+  <data name="SplitOuter.SplitterDistance" type="System.Int32, mscorlib">
+    <value>368</value>
+  </data>
+  <data name="SplitOuter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Name" xml:space="preserve">
+    <value>SplitOuter</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SplitOuter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="ttMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>396, 17</value>
+  </metadata>
+  <data name="btnSeekBackward.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSeekBackward.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 50</value>
+  </data>
+  <data name="btnSeekBackward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 40</value>
+  </data>
+  <data name="btnSeekBackward.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnSeekBackward.ToolTip" xml:space="preserve">
+    <value>Найти ранее</value>
+  </data>
+  <data name="&gt;&gt;btnSeekBackward.Name" xml:space="preserve">
+    <value>btnSeekBackward</value>
+  </data>
+  <data name="&gt;&gt;btnSeekBackward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSeekBackward.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;btnSeekBackward.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnFindClobal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 50</value>
+  </data>
+  <data name="btnFindClobal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 40</value>
+  </data>
+  <data name="btnFindClobal.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnFindClobal.ToolTip" xml:space="preserve">
+    <value>Глобальный поиск</value>
+  </data>
+  <data name="&gt;&gt;btnFindClobal.Name" xml:space="preserve">
+    <value>btnFindClobal</value>
+  </data>
+  <data name="&gt;&gt;btnFindClobal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindClobal.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;btnFindClobal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSeekForward.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSeekForward.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 50</value>
+  </data>
+  <data name="btnSeekForward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 40</value>
+  </data>
+  <data name="btnSeekForward.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnSeekForward.ToolTip" xml:space="preserve">
+    <value>Найти далее</value>
+  </data>
+  <data name="&gt;&gt;btnSeekForward.Name" xml:space="preserve">
+    <value>btnSeekForward</value>
+  </data>
+  <data name="&gt;&gt;btnSeekForward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSeekForward.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;btnSeekForward.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkSeekWholeWord.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSeekWholeWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 71</value>
+  </data>
+  <data name="chkSeekWholeWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 27</value>
+  </data>
+  <data name="chkSeekWholeWord.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkSeekWholeWord.Text" xml:space="preserve">
+    <value>Слово целиком</value>
+  </data>
+  <data name="&gt;&gt;chkSeekWholeWord.Name" xml:space="preserve">
+    <value>chkSeekWholeWord</value>
+  </data>
+  <data name="&gt;&gt;chkSeekWholeWord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSeekWholeWord.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;chkSeekWholeWord.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkSeekCase.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSeekCase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 43</value>
+  </data>
+  <data name="chkSeekCase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 27</value>
+  </data>
+  <data name="chkSeekCase.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkSeekCase.Text" xml:space="preserve">
+    <value>С учетом регистра</value>
+  </data>
+  <data name="&gt;&gt;chkSeekCase.Name" xml:space="preserve">
+    <value>chkSeekCase</value>
+  </data>
+  <data name="&gt;&gt;chkSeekCase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSeekCase.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;chkSeekCase.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbSeek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 6</value>
+  </data>
+  <data name="cmbSeek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 31</value>
+  </data>
+  <data name="cmbSeek.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbSeek.Name" xml:space="preserve">
+    <value>cmbSeek</value>
+  </data>
+  <data name="&gt;&gt;cmbSeek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSeek.Parent" xml:space="preserve">
+    <value>pnlSeek</value>
+  </data>
+  <data name="&gt;&gt;cmbSeek.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblVariableError.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVariableError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 55</value>
+  </data>
+  <data name="lblVariableError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="lblVariableError.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblVariableError.Name" xml:space="preserve">
+    <value>lblVariableError</value>
+  </data>
+  <data name="&gt;&gt;lblVariableError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVariableError.Parent" xml:space="preserve">
+    <value>pnlVariables</value>
+  </data>
+  <data name="&gt;&gt;lblVariableError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="colSignature.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="colValue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dgwVariables.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 88</value>
+  </data>
+  <data name="dgwVariables.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 150</value>
+  </data>
+  <data name="dgwVariables.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dgwVariables.Name" xml:space="preserve">
+    <value>dgwVariables</value>
+  </data>
+  <data name="&gt;&gt;dgwVariables.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgwVariables.Parent" xml:space="preserve">
+    <value>pnlVariables</value>
+  </data>
+  <data name="&gt;&gt;dgwVariables.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="colSignature.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colSignature.HeaderText" xml:space="preserve">
+    <value>Сигнатура</value>
+  </data>
+  <metadata name="colValue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colValue.HeaderText" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="colValue.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="txtVariableDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 23</value>
+  </data>
+  <data name="txtVariableDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 29</value>
+  </data>
+  <data name="txtVariableDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtVariableDescription.Name" xml:space="preserve">
+    <value>txtVariableDescription</value>
+  </data>
+  <data name="&gt;&gt;txtVariableDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtVariableDescription.Parent" xml:space="preserve">
+    <value>pnlVariables</value>
+  </data>
+  <data name="&gt;&gt;txtVariableDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblVariableDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVariableDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 23</value>
+  </data>
+  <data name="lblVariableDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="lblVariableDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblVariableDescription.Text" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="&gt;&gt;lblVariableDescription.Name" xml:space="preserve">
+    <value>lblVariableDescription</value>
+  </data>
+  <data name="&gt;&gt;lblVariableDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVariableDescription.Parent" xml:space="preserve">
+    <value>pnlVariables</value>
+  </data>
+  <data name="&gt;&gt;lblVariableDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="cmnuMainTree.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="cmnuMainTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 164</value>
+  </data>
+  <data name="&gt;&gt;cmnuMainTree.Name" xml:space="preserve">
+    <value>cmnuMainTree</value>
+  </data>
+  <data name="&gt;&gt;cmnuMainTree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsmiAddGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="tsmiAddGroup.Text" xml:space="preserve">
+    <value>Добавить группу</value>
+  </data>
+  <data name="tsmiAddElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="tsmiAddElement.Text" xml:space="preserve">
+    <value>Добавить элемент</value>
+  </data>
+  <data name="tsmiRemoveElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="tsmiRemoveElement.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="tsmiDuplicate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="tsmiDuplicate.Text" xml:space="preserve">
+    <value>Дублировать</value>
+  </data>
+  <data name="tsmiExcludeFromGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="tsmiExcludeFromGroup.Text" xml:space="preserve">
+    <value>Вывести из группы</value>
+  </data>
+  <data name="ToolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 6</value>
+  </data>
+  <data name="tsmiExpand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="tsmiExpand.Text" xml:space="preserve">
+    <value>Развернуть все</value>
+  </data>
+  <data name="СвернутьВсеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="СвернутьВсеToolStripMenuItem.Text" xml:space="preserve">
+    <value>Свернуть все</value>
+  </data>
+  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1260, 27</value>
+  </data>
+  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Button2.Text" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>174, 17</value>
+  </metadata>
+  <data name="MenuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1357, 24</value>
+  </data>
+  <data name="MenuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="MenuStrip1.Text" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.Name" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="FileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Квест</value>
+  </data>
+  <data name="OpenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 22</value>
+  </data>
+  <data name="OpenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Создать новый</value>
+  </data>
+  <data name="tsmiLoad.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="tsmiLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 22</value>
+  </data>
+  <data name="tsmiLoad.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="tsmiSave.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="tsmiSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 22</value>
+  </data>
+  <data name="tsmiSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="СохранитьКакToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 22</value>
+  </data>
+  <data name="СохранитьКакToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить как...</value>
+  </data>
+  <data name="СвойстваКвестаToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+P</value>
+  </data>
+  <data name="СвойстваКвестаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 22</value>
+  </data>
+  <data name="СвойстваКвестаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Свойства квеста</value>
+  </data>
+  <data name="ToolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 6</value>
+  </data>
+  <data name="tsmiRun.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F5</value>
+  </data>
+  <data name="tsmiRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 22</value>
+  </data>
+  <data name="tsmiRun.Text" xml:space="preserve">
+    <value>Запустить</value>
+  </data>
+  <data name="ToolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 6</value>
+  </data>
+  <data name="ПоследниеФайлыToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 22</value>
+  </data>
+  <data name="ПоследниеФайлыToolStripMenuItem.Text" xml:space="preserve">
+    <value>Последние файлы</value>
+  </data>
+  <data name="ВыходИзРедактораToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 22</value>
+  </data>
+  <data name="ВыходИзРедактораToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход из редактора</value>
+  </data>
+  <data name="ВыходИзПрограммыToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 22</value>
+  </data>
+  <data name="ВыходИзПрограммыToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход из программы</value>
+  </data>
+  <data name="EditToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="EditToolStripMenuItem.Text" xml:space="preserve">
+    <value>Редактор</value>
+  </data>
+  <data name="tsmiUndo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiUndo.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Z</value>
+  </data>
+  <data name="tsmiUndo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiUndo.Text" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="tsmiRedo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiRedo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiRedo.Text" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="tsmiCopy.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiCopy.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="tsmiCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiCopy.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="tsmiCut.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiCut.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+X</value>
+  </data>
+  <data name="tsmiCut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiCut.Text" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="tsmiPaste.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiPaste.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+V</value>
+  </data>
+  <data name="tsmiPaste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiPaste.Text" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="ToolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 6</value>
+  </data>
+  <data name="tsmiSelLine.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiSelLine.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Y</value>
+  </data>
+  <data name="tsmiSelLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiSelLine.Text" xml:space="preserve">
+    <value>Выделить строки</value>
+  </data>
+  <data name="tsmiComment.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiComment.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+C</value>
+  </data>
+  <data name="tsmiComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiComment.Text" xml:space="preserve">
+    <value>Закомментировать</value>
+  </data>
+  <data name="tsmiUncomment.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiUncomment.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+Shift+C</value>
+  </data>
+  <data name="tsmiUncomment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiUncomment.Text" xml:space="preserve">
+    <value>Раскомментировать</value>
+  </data>
+  <data name="tsmiKeyboard.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiKeyboard.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+T</value>
+  </data>
+  <data name="tsmiKeyboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiKeyboard.Text" xml:space="preserve">
+    <value>Исправить раскладку</value>
+  </data>
+  <data name="tsmiWrap.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAPFJREFUSEvtklERwjAQRCOhEpBQCZWABCRUQh0goRKQUAlIQAIOKPvSW+CH0k75
+        YcjO7ORySXfvrkkFBQU/iFtK7ZjSLrabIa1GHKV7jFROHmBsl2Af61tE4SOMVE4OcKFZL3ZTOA/p1dK9
+        xDYb9ThrPUUKIAZp3R1gQoWDyBmj9j1i7j5GJT26enavTSV2Yh0pOjtPYY4RqkQbsTYiwJQcRRJfRWt+
+        /OetyMeYIegCMCTPatiIgihm1YPiAypEwCJgzsgdroI7YL6MAiHwdSOE3AVmfjk2olufbzJC3C8Icc/d
+        DwIj/w/OXwsrKPgvpHQHAxdWrNS6zrkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tsmiWrap.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiWrap.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+W</value>
+  </data>
+  <data name="tsmiWrap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiWrap.Text" xml:space="preserve">
+    <value>Завернуть в кавычки</value>
+  </data>
+  <data name="tsmiDefVars.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F9</value>
+  </data>
+  <data name="tsmiDefVars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiDefVars.Text" xml:space="preserve">
+    <value>Вставить стандартные переменные</value>
+  </data>
+  <data name="tsmiExec.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiExec.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+E</value>
+  </data>
+  <data name="tsmiExec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiExec.Text" xml:space="preserve">
+    <value>Вставить &lt;exec&gt;...&lt;/exec&gt;</value>
+  </data>
+  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 6</value>
+  </data>
+  <data name="ФорматированиеТекстаToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ФорматированиеТекстаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="ФорматированиеТекстаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Форматирование текста</value>
+  </data>
+  <data name="tsmiB.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiB.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+B</value>
+  </data>
+  <data name="tsmiB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiB.Text" xml:space="preserve">
+    <value>Жирный шрифт</value>
+  </data>
+  <data name="tsmiI.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiI.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+I</value>
+  </data>
+  <data name="tsmiI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiI.Text" xml:space="preserve">
+    <value>Курсив</value>
+  </data>
+  <data name="tsmiU.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiU.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+U</value>
+  </data>
+  <data name="tsmiU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiU.Text" xml:space="preserve">
+    <value>Подчеркивание</value>
+  </data>
+  <data name="tsmiSup.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiSup.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl++</value>
+  </data>
+  <data name="tsmiSup.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Oemplus</value>
+  </data>
+  <data name="tsmiSup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiSup.Text" xml:space="preserve">
+    <value>Надстрочный</value>
+  </data>
+  <data name="tsmiSub.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiSub.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+-</value>
+  </data>
+  <data name="tsmiSub.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+OemMinus</value>
+  </data>
+  <data name="tsmiSub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiSub.Text" xml:space="preserve">
+    <value>Подстрочный</value>
+  </data>
+  <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 6</value>
+  </data>
+  <data name="ToolStripMenuItem3.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="ToolStripMenuItem3.Text" xml:space="preserve">
+    <value>Прилегание</value>
+  </data>
+  <data name="tsmiLeft.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiLeft.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+L</value>
+  </data>
+  <data name="tsmiLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 32</value>
+  </data>
+  <data name="tsmiLeft.Text" xml:space="preserve">
+    <value>Прилегание влево</value>
+  </data>
+  <data name="tsmiCenter.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiCenter.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+E</value>
+  </data>
+  <data name="tsmiCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 32</value>
+  </data>
+  <data name="tsmiCenter.Text" xml:space="preserve">
+    <value>Прилегание по центру</value>
+  </data>
+  <data name="tsmiRight.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiRight.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+R</value>
+  </data>
+  <data name="tsmiRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 32</value>
+  </data>
+  <data name="tsmiRight.Text" xml:space="preserve">
+    <value>Прилегание вправо</value>
+  </data>
+  <data name="tsmiJustify.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiJustify.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+J</value>
+  </data>
+  <data name="tsmiJustify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 32</value>
+  </data>
+  <data name="tsmiJustify.Text" xml:space="preserve">
+    <value>Прилегание кирпичом</value>
+  </data>
+  <data name="tsmiP.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiP.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+P</value>
+  </data>
+  <data name="tsmiP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiP.Text" xml:space="preserve">
+    <value>Абзац</value>
+  </data>
+  <data name="tsmiH1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiH1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+H</value>
+  </data>
+  <data name="tsmiH1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiH1.Text" xml:space="preserve">
+    <value>Заголовок I уровня</value>
+  </data>
+  <data name="tsmiH2.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiH2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiH2.Text" xml:space="preserve">
+    <value>Заголовок II уровня</value>
+  </data>
+  <data name="tsmiH3.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiH3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiH3.Text" xml:space="preserve">
+    <value>Заголовок III уровня</value>
+  </data>
+  <data name="tsmiSpan.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiSpan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiSpan.Text" xml:space="preserve">
+    <value>Блок текста</value>
+  </data>
+  <data name="tsmiFontSize.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiFontSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiFontSize.Text" xml:space="preserve">
+    <value>Подбор шрифта...</value>
+  </data>
+  <data name="tsmiColor.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiColor.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+C</value>
+  </data>
+  <data name="tsmiColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 32</value>
+  </data>
+  <data name="tsmiColor.Text" xml:space="preserve">
+    <value>Цвет текста...</value>
+  </data>
+  <data name="tsmiSpecialChars.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiSpecialChars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiSpecialChars.Text" xml:space="preserve">
+    <value>Специальные символы</value>
+  </data>
+  <data name="tsmiHR.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiHR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 32</value>
+  </data>
+  <data name="tsmiHR.Text" xml:space="preserve">
+    <value>Горизонтальная линия</value>
+  </data>
+  <data name="tsmiBR.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiBR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 32</value>
+  </data>
+  <data name="tsmiBR.Text" xml:space="preserve">
+    <value>Символ переноса</value>
+  </data>
+  <data name="tsmiSpace.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiSpace.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Space</value>
+  </data>
+  <data name="tsmiSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 32</value>
+  </data>
+  <data name="tsmiSpace.Text" xml:space="preserve">
+    <value>Неразрывный пробел</value>
+  </data>
+  <data name="tsmiDash.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiDash.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Alt+Minus</value>
+  </data>
+  <data name="tsmiDash.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+OemMinus</value>
+  </data>
+  <data name="tsmiDash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 32</value>
+  </data>
+  <data name="tsmiDash.Text" xml:space="preserve">
+    <value>Длинное тире</value>
+  </data>
+  <data name="tsmiQuotes.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiQuotes.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+2</value>
+  </data>
+  <data name="tsmiQuotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 32</value>
+  </data>
+  <data name="tsmiQuotes.Text" xml:space="preserve">
+    <value>Кавычки</value>
+  </data>
+  <data name="tsmiEuro.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiEuro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 32</value>
+  </data>
+  <data name="tsmiEuro.Text" xml:space="preserve">
+    <value>Знак Евро</value>
+  </data>
+  <data name="tsmiSelector.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+1</value>
+  </data>
+  <data name="tsmiSelector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 32</value>
+  </data>
+  <data name="tsmiSelector.Text" xml:space="preserve">
+    <value>Селектор</value>
+  </data>
+  <data name="ToolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 6</value>
+  </data>
+  <data name="tsmiChars.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiChars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 32</value>
+  </data>
+  <data name="tsmiChars.Text" xml:space="preserve">
+    <value>Другие...</value>
+  </data>
+  <data name="tsmiImage.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiImage.Text" xml:space="preserve">
+    <value>Изображение...</value>
+  </data>
+  <data name="tsmiTable.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiTable.Text" xml:space="preserve">
+    <value>Таблица...</value>
+  </data>
+  <data name="tsmiList.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiList.Text" xml:space="preserve">
+    <value>Список...</value>
+  </data>
+  <data name="tsmiMarquee.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiMarquee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiMarquee.Text" xml:space="preserve">
+    <value>Бегущая строка...</value>
+  </data>
+  <data name="tsmiIFrame.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiIFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 32</value>
+  </data>
+  <data name="tsmiIFrame.Text" xml:space="preserve">
+    <value>Рамка с новой страницей</value>
+  </data>
+  <data name="СервисToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="СервисToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сервис</value>
+  </data>
+  <data name="tsmiFind.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiFind.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+F</value>
+  </data>
+  <data name="tsmiFind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 32</value>
+  </data>
+  <data name="tsmiFind.Text" xml:space="preserve">
+    <value>Локальный поиск</value>
+  </data>
+  <data name="tsmiFindNext.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiFindNext.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F3</value>
+  </data>
+  <data name="tsmiFindNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 32</value>
+  </data>
+  <data name="tsmiFindNext.Text" xml:space="preserve">
+    <value>Найти далее</value>
+  </data>
+  <data name="tsmiFindGlobal.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiFindGlobal.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+G</value>
+  </data>
+  <data name="tsmiFindGlobal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 32</value>
+  </data>
+  <data name="tsmiFindGlobal.Text" xml:space="preserve">
+    <value>Глобальный поиск</value>
+  </data>
+  <data name="ToolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 6</value>
+  </data>
+  <data name="НастройкиПрограммыToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="НастройкиПрограммыToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 32</value>
+  </data>
+  <data name="НастройкиПрограммыToolStripMenuItem.Text" xml:space="preserve">
+    <value>Настройки программы</value>
+  </data>
+  <data name="tsmiExecuteScript.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiExecuteScript.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+F7</value>
+  </data>
+  <data name="tsmiExecuteScript.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 32</value>
+  </data>
+  <data name="tsmiExecuteScript.Text" xml:space="preserve">
+    <value>Выполнить код...</value>
+  </data>
+  <data name="tsmiCopyAsHTML.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiCopyAsHTML.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 32</value>
+  </data>
+  <data name="tsmiCopyAsHTML.Text" xml:space="preserve">
+    <value>Копировать код как HTML</value>
+  </data>
+  <data name="ToolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 6</value>
+  </data>
+  <data name="tsmiClassEditor.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F12</value>
+  </data>
+  <data name="tsmiClassEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 32</value>
+  </data>
+  <data name="tsmiClassEditor.Text" xml:space="preserve">
+    <value>Редактор классов...</value>
+  </data>
+  <data name="tsmiRestoreElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 32</value>
+  </data>
+  <data name="tsmiRestoreElement.Text" xml:space="preserve">
+    <value>Восстановить удаленный...</value>
+  </data>
+  <data name="tsmigHighLight.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmigHighLight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 32</value>
+  </data>
+  <data name="tsmigHighLight.Text" xml:space="preserve">
+    <value>Выделение одинаковых элементов</value>
+  </data>
+  <data name="tsmiHighLightFull.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiHighLightFull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 32</value>
+  </data>
+  <data name="tsmiHighLightFull.Text" xml:space="preserve">
+    <value>Выделить</value>
+  </data>
+  <data name="tsmiHighLightDesignate.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiHighLightDesignate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 32</value>
+  </data>
+  <data name="tsmiHighLightDesignate.Text" xml:space="preserve">
+    <value>Обозначить</value>
+  </data>
+  <data name="tsmiHighLightNo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiHighLightNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 32</value>
+  </data>
+  <data name="tsmiHighLightNo.Text" xml:space="preserve">
+    <value>Не выделять</value>
+  </data>
+  <data name="ПомощьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="ПомощьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Классы</value>
+  </data>
+  <data name="tsmiShowAdditionalClasses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="tsmiShowAdditionalClasses.Text" xml:space="preserve">
+    <value>Показать вспомогательные</value>
+  </data>
+  <data name="ПомощьToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="ПомощьToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <metadata name="ToolStripPanels.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>289, 17</value>
+  </metadata>
+  <data name="ToolStripPanels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 79</value>
+  </data>
+  <data name="ToolStripPanels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1357, 25</value>
+  </data>
+  <data name="ToolStripPanels.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ToolStripPanels.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripPanels.Name" xml:space="preserve">
+    <value>ToolStripPanels</value>
+  </data>
+  <data name="&gt;&gt;ToolStripPanels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripPanels.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolStripPanels.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="ttMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>396, 17</value>
+  </metadata>
+  <metadata name="ToolStripCodeBox.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>483, 17</value>
+  </metadata>
+  <data name="ToolStripCodeBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ToolStripCodeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 74</value>
+  </data>
+  <data name="ToolStripCodeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1154, 33</value>
+  </data>
+  <data name="ToolStripCodeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ToolStripCodeBox.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripCodeBox.Name" xml:space="preserve">
+    <value>ToolStripCodeBox</value>
+  </data>
+  <data name="&gt;&gt;ToolStripCodeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripCodeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolStripCodeBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tsbDefVars.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbDefVars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 30</value>
+  </data>
+  <data name="tsbDefVars.Text" xml:space="preserve">
+    <value>Вставить стандартные переменные</value>
+  </data>
+  <data name="tsbUndo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbUndo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbUndo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbUndo.Text" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="tsbUndo.ToolTipText" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="tsbRedo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbRedo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbRedo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbRedo.Text" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="tsbRedo.ToolTipText" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="tsbWrap.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADzSURBVEhL7ZJREcJADEQjoRKQUAmVgAQkVEIdIKESkFAJ
+        SEACAhg48q5Z4IfSTvlhuJ3ZuVzuupukZwUFBT+Im1mbzDaxXQ3XapzparaPVE7uYGznYBvrW0ThCUbK
+        zF0HONOsd3ZjOA3Xqy9mp9hmox5nXw+RAohBWlcHmFDh4OSMUeseMXcfo4qunt37pnJ2zjpSdHYcwxwj
+        VDllxNo4AabkKJL47JTmx3/eOvkYMwRVAIbkWQUZURDFLHpQfECFCEgETBmpw0VQB8yXUSAEvm6EkLrA
+        TC9HRnSr81VGiOsFIa6560FgpP/B+WthBQX/BbM703RWpMoGPqoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tsbWrap.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbWrap.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbWrap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbWrap.Text" xml:space="preserve">
+    <value>ToolStripButton22</value>
+  </data>
+  <data name="tsbWrap.ToolTipText" xml:space="preserve">
+    <value>Завернуть строку в кавычки (функция C.Wrap)</value>
+  </data>
+  <data name="tsbComment.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbComment.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbComment.Text" xml:space="preserve">
+    <value>Закомментировать строку</value>
+  </data>
+  <data name="tsbComment.ToolTipText" xml:space="preserve">
+    <value>Закомментировать строку</value>
+  </data>
+  <data name="tsbUncomment.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbUncomment.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbUncomment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbUncomment.Text" xml:space="preserve">
+    <value>Раскомментировать строку</value>
+  </data>
+  <data name="tsbUncomment.ToolTipText" xml:space="preserve">
+    <value>Раскомментировать строку</value>
+  </data>
+  <data name="ToolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="tsbBR.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbBR.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbBR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbBR.Text" xml:space="preserve">
+    <value>ToolStripButton2</value>
+  </data>
+  <data name="tsbBR.ToolTipText" xml:space="preserve">
+    <value>Символ новой строки</value>
+  </data>
+  <data name="tsbHR.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbHR.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbHR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbHR.Text" xml:space="preserve">
+    <value>ToolStripButton3</value>
+  </data>
+  <data name="tsbHR.ToolTipText" xml:space="preserve">
+    <value>Горизонтальная линия</value>
+  </data>
+  <data name="tsbB.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbB.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbB.Text" xml:space="preserve">
+    <value>Жирный шрифт</value>
+  </data>
+  <data name="tsbI.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbI.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbI.Text" xml:space="preserve">
+    <value>Курсив</value>
+  </data>
+  <data name="tsbU.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbU.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbU.Text" xml:space="preserve">
+    <value>Подчеркивание</value>
+  </data>
+  <data name="tsbSup.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbSup.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbSup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbSup.Text" xml:space="preserve">
+    <value>Надстрочный символ</value>
+  </data>
+  <data name="tsbSub.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbSub.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbSub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbSub.Text" xml:space="preserve">
+    <value>Подстрочный символ</value>
+  </data>
+  <data name="tsbLeft.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbLeft.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbLeft.Text" xml:space="preserve">
+    <value>ToolStripButton1</value>
+  </data>
+  <data name="tsbLeft.ToolTipText" xml:space="preserve">
+    <value>Прилегание влево</value>
+  </data>
+  <data name="tsbCenter.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbCenter.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbCenter.Text" xml:space="preserve">
+    <value>ToolStripButton2</value>
+  </data>
+  <data name="tsbCenter.ToolTipText" xml:space="preserve">
+    <value>Прилегание по центру</value>
+  </data>
+  <data name="tsbRight.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbRight.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbRight.Text" xml:space="preserve">
+    <value>ToolStripButton3</value>
+  </data>
+  <data name="tsbRight.ToolTipText" xml:space="preserve">
+    <value>Прилегание вправо</value>
+  </data>
+  <data name="tsbJustify.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbJustify.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbJustify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbJustify.Text" xml:space="preserve">
+    <value>ToolStripButton4</value>
+  </data>
+  <data name="tsbJustify.ToolTipText" xml:space="preserve">
+    <value>Прилегание кирпичом</value>
+  </data>
+  <data name="tsbTable.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbTable.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbTable.Text" xml:space="preserve">
+    <value>Вставка таблицы</value>
+  </data>
+  <data name="tsbTable.ToolTipText" xml:space="preserve">
+    <value>Вставка таблицы</value>
+  </data>
+  <data name="tsbColor.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbColor.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbColor.Text" xml:space="preserve">
+    <value>ToolStripButton6</value>
+  </data>
+  <data name="tsbColor.ToolTipText" xml:space="preserve">
+    <value>Цвет текста</value>
+  </data>
+  <data name="tsbFontSize.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbFontSize.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbFontSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbFontSize.Text" xml:space="preserve">
+    <value>Подбор шрифта</value>
+  </data>
+  <data name="tsbFontSize.ToolTipText" xml:space="preserve">
+    <value>Подбор шрифта</value>
+  </data>
+  <data name="tsbImage.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbImage.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbImage.Text" xml:space="preserve">
+    <value>ToolStripButton8</value>
+  </data>
+  <data name="tsbImage.ToolTipText" xml:space="preserve">
+    <value>Вставить изображение</value>
+  </data>
+  <data name="tsbMarquee.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbMarquee.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbMarquee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbMarquee.Text" xml:space="preserve">
+    <value>ToolStripButton9</value>
+  </data>
+  <data name="tsbMarquee.ToolTipText" xml:space="preserve">
+    <value>Бегущая строка</value>
+  </data>
+  <data name="tsbList.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbList.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbList.Text" xml:space="preserve">
+    <value>ToolStripButton11</value>
+  </data>
+  <data name="tsbList.ToolTipText" xml:space="preserve">
+    <value>Вставить список</value>
+  </data>
+  <data name="tsbSpan.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbSpan.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbSpan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbSpan.Text" xml:space="preserve">
+    <value>ToolStripButton10</value>
+  </data>
+  <data name="tsbSpan.ToolTipText" xml:space="preserve">
+    <value>Блок текста</value>
+  </data>
+  <data name="tsbP.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbP.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbP.Text" xml:space="preserve">
+    <value>ToolStripButton12</value>
+  </data>
+  <data name="tsbP.ToolTipText" xml:space="preserve">
+    <value>Вставить абзац</value>
+  </data>
+  <data name="tsbH1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbH1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbH1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbH1.Text" xml:space="preserve">
+    <value>ToolStripButton13</value>
+  </data>
+  <data name="tsbH1.ToolTipText" xml:space="preserve">
+    <value>Заголовок I уровня</value>
+  </data>
+  <data name="tsbH2.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbH2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbH2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbH2.Text" xml:space="preserve">
+    <value>ToolStripButton14</value>
+  </data>
+  <data name="tsbH2.ToolTipText" xml:space="preserve">
+    <value>Заголовок II уровня</value>
+  </data>
+  <data name="tsbH3.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbH3.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbH3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbH3.Text" xml:space="preserve">
+    <value>ToolStripButton15</value>
+  </data>
+  <data name="tsbH3.ToolTipText" xml:space="preserve">
+    <value>Заголовок III уровня</value>
+  </data>
+  <data name="tsbExec.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbExec.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbExec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbExec.Text" xml:space="preserve">
+    <value>Тэг exec</value>
+  </data>
+  <data name="tsbExec.ToolTipText" xml:space="preserve">
+    <value>Тэг exec. Alt + E</value>
+  </data>
+  <data name="ToolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="tsbSeek.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbSeek.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbSeek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbSeek.Text" xml:space="preserve">
+    <value>Найти в данном блоке</value>
+  </data>
+  <data name="tsbSeek.ToolTipText" xml:space="preserve">
+    <value>Найти в данном блоке. Ctrl+F</value>
+  </data>
+  <data name="ToolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="tsbSelector.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbSelector.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbSelector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbSelector.Text" xml:space="preserve">
+    <value>Селектор</value>
+  </data>
+  <data name="tsbSelector.ToolTipText" xml:space="preserve">
+    <value>Неразрывный пробел Ctrl + Space</value>
+  </data>
+  <data name="tsbSpace.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbSpace.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbSpace.Text" xml:space="preserve">
+    <value>Неразрывный пробел</value>
+  </data>
+  <data name="tsbSpace.ToolTipText" xml:space="preserve">
+    <value>Неразрывный пробел Ctrl + Space</value>
+  </data>
+  <data name="tsbDash.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbDash.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbDash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbDash.Text" xml:space="preserve">
+    <value>ToolStripButton2</value>
+  </data>
+  <data name="tsbDash.ToolTipText" xml:space="preserve">
+    <value>Длинное тире</value>
+  </data>
+  <data name="tsbQuotes.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbQuotes.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbQuotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbQuotes.Text" xml:space="preserve">
+    <value>ToolStripButton3</value>
+  </data>
+  <data name="tsbQuotes.ToolTipText" xml:space="preserve">
+    <value>Кавычки</value>
+  </data>
+  <data name="tsbChars.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbChars.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbChars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="tsbChars.Text" xml:space="preserve">
+    <value>Другие символы</value>
+  </data>
+  <data name="tsbChars.ToolTipText" xml:space="preserve">
+    <value>Другие символы</value>
+  </data>
+  <data name="ToolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="tsbgHighLight.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbgHighLight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 30</value>
+  </data>
+  <data name="tsbgHighLight.Text" xml:space="preserve">
+    <value>Выделение цветом одинаковых элементов</value>
+  </data>
+  <data name="tsbHighLightFull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 22</value>
+  </data>
+  <data name="tsbHighLightFull.Text" xml:space="preserve">
+    <value>Выделить</value>
+  </data>
+  <data name="tsbHighLightDesignate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 22</value>
+  </data>
+  <data name="tsbHighLightDesignate.Text" xml:space="preserve">
+    <value>Обозначить</value>
+  </data>
+  <data name="tsbHighLightNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 22</value>
+  </data>
+  <data name="tsbHighLightNo.Text" xml:space="preserve">
+    <value>Не выделять</value>
+  </data>
+  <data name="tsbRestoreInitial.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbRestoreInitial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 30</value>
+  </data>
+  <data name="tsbRestoreInitial.Text" xml:space="preserve">
+    <value>Восстановить исходное состояние текста</value>
+  </data>
+  <data name="tsbRestoreInitial.ToolTipText" xml:space="preserve">
+    <value>Восстановить исходное состояние текста</value>
+  </data>
+  <data name="tsbFullScreen.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbFullScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 30</value>
+  </data>
+  <data name="tsbFullScreen.Text" xml:space="preserve">
+    <value>Развернуть / свернуть окно скриптов</value>
+  </data>
+  <data name="tsbFullScreen.ToolTipText" xml:space="preserve">
+    <value>Развернуть / свернуть окно скриптов</value>
+  </data>
+  <metadata name="ToolStripMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>767, 17</value>
+  </metadata>
+  <data name="ToolStripMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="ToolStripMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1357, 55</value>
+  </data>
+  <data name="ToolStripMain.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ToolStripMain.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMain.Name" xml:space="preserve">
+    <value>ToolStripMain</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMain.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tsbQ.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbQ.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbQ.Text" xml:space="preserve">
+    <value>Квест</value>
+  </data>
+  <data name="tsbString.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbString.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbString.Text" xml:space="preserve">
+    <value>Квест</value>
+  </data>
+  <data name="tsbString.ToolTipText" xml:space="preserve">
+    <value>Строки</value>
+  </data>
+  <data name="tsbString.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbMath.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbMath.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbMath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbMath.Text" xml:space="preserve">
+    <value>Квест</value>
+  </data>
+  <data name="tsbMath.ToolTipText" xml:space="preserve">
+    <value>Математика</value>
+  </data>
+  <data name="tsbMath.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbDate.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbDate.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbDate.Text" xml:space="preserve">
+    <value>Квест</value>
+  </data>
+  <data name="tsbDate.ToolTipText" xml:space="preserve">
+    <value>Даты</value>
+  </data>
+  <data name="tsbDate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbArr.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbArr.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbArr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 52</value>
+  </data>
+  <data name="tsbArr.Text" xml:space="preserve">
+    <value>Квест</value>
+  </data>
+  <data name="tsbArr.ToolTipText" xml:space="preserve">
+    <value>Массивы</value>
+  </data>
+  <data name="tsbArr.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbFile.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbFile.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbFile.Text" xml:space="preserve">
+    <value>Квест</value>
+  </data>
+  <data name="tsbFile.ToolTipText" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="tsbFile.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbCode.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbCode.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbCode.Text" xml:space="preserve">
+    <value>Скрипт</value>
+  </data>
+  <data name="tsbCode.ToolTipText" xml:space="preserve">
+    <value>Скрипты</value>
+  </data>
+  <data name="tsbCode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="tsbL.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbL.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbL.Text" xml:space="preserve">
+    <value>Локации</value>
+  </data>
+  <data name="tsbObj.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbObj.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbObj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbObj.Text" xml:space="preserve">
+    <value>Предметы</value>
+  </data>
+  <data name="tsbM.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbM.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbM.Text" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="tsbT.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbT.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbT.Text" xml:space="preserve">
+    <value>Счетчики</value>
+  </data>
+  <data name="ToolStripSeparator14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="tsbMap.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbMap.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbMap.Text" xml:space="preserve">
+    <value>Карты</value>
+  </data>
+  <data name="tsbMed.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbMed.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbMed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbMed.Text" xml:space="preserve">
+    <value>Медиа</value>
+  </data>
+  <data name="tsbHer.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbHer.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbHer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbHer.Text" xml:space="preserve">
+    <value>Герои</value>
+  </data>
+  <data name="tsbMg.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbMg.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbMg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbMg.Text" xml:space="preserve">
+    <value>Магии</value>
+  </data>
+  <data name="tsbAb.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbAb.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbAb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbAb.Text" xml:space="preserve">
+    <value>Способности</value>
+  </data>
+  <data name="tsbArmy.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbArmy.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbArmy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbArmy.Text" xml:space="preserve">
+    <value>Армии</value>
+  </data>
+  <data name="tsbBat.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbBat.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbBat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbBat.Text" xml:space="preserve">
+    <value>Битва</value>
+  </data>
+  <data name="tsddbWindows.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsddbWindows.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsddbWindows.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 52</value>
+  </data>
+  <data name="tsddbWindows.Text" xml:space="preserve">
+    <value>Окна</value>
+  </data>
+  <data name="tsmiCm.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiCm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 54</value>
+  </data>
+  <data name="tsmiCm.Text" xml:space="preserve">
+    <value>Командная строка</value>
+  </data>
+  <data name="tsmiLW.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiLW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 54</value>
+  </data>
+  <data name="tsmiLW.Text" xml:space="preserve">
+    <value>Главное окно</value>
+  </data>
+  <data name="tsmiDW.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiDW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 54</value>
+  </data>
+  <data name="tsmiDW.Text" xml:space="preserve">
+    <value>Окно описаний</value>
+  </data>
+  <data name="tsmiOW.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiOW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 54</value>
+  </data>
+  <data name="tsmiOW.Text" xml:space="preserve">
+    <value>Окно предметов</value>
+  </data>
+  <data name="tsmiAW.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiAW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 54</value>
+  </data>
+  <data name="tsmiAW.Text" xml:space="preserve">
+    <value>Окно действий</value>
+  </data>
+  <data name="tsmiMgW.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmiMgW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 54</value>
+  </data>
+  <data name="tsmiMgW.Text" xml:space="preserve">
+    <value>Окно магий</value>
+  </data>
+  <data name="ToolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="tsbFunc.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbFunc.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbFunc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbFunc.Text" xml:space="preserve">
+    <value>Функции</value>
+  </data>
+  <data name="tsbVar.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbVar.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbVar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbVar.Text" xml:space="preserve">
+    <value>Переменные</value>
+  </data>
+  <data name="ToolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="tsbAddUserClass.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsbAddUserClass.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbAddUserClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="tsbAddUserClass.Text" xml:space="preserve">
+    <value>Создать новый класс</value>
+  </data>
+  <metadata name="imgLstGroupIcons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>632, 17</value>
+  </metadata>
+  <data name="imgLstGroupIcons.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <metadata name="fsWatcher.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>895, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 23</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1357, 708</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 12pt, style=Italic</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>matewQuest</value>
+  </data>
+  <data name="&gt;&gt;colSignature.Name" xml:space="preserve">
+    <value>colSignature</value>
+  </data>
+  <data name="&gt;&gt;colSignature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colValue.Name" xml:space="preserve">
+    <value>colValue</value>
+  </data>
+  <data name="&gt;&gt;colValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiAddGroup.Name" xml:space="preserve">
+    <value>tsmiAddGroup</value>
+  </data>
+  <data name="&gt;&gt;tsmiAddGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiAddElement.Name" xml:space="preserve">
+    <value>tsmiAddElement</value>
+  </data>
+  <data name="&gt;&gt;tsmiAddElement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiRemoveElement.Name" xml:space="preserve">
+    <value>tsmiRemoveElement</value>
+  </data>
+  <data name="&gt;&gt;tsmiRemoveElement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiDuplicate.Name" xml:space="preserve">
+    <value>tsmiDuplicate</value>
+  </data>
+  <data name="&gt;&gt;tsmiDuplicate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiExcludeFromGroup.Name" xml:space="preserve">
+    <value>tsmiExcludeFromGroup</value>
+  </data>
+  <data name="&gt;&gt;tsmiExcludeFromGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator13.Name" xml:space="preserve">
+    <value>ToolStripSeparator13</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiExpand.Name" xml:space="preserve">
+    <value>tsmiExpand</value>
+  </data>
+  <data name="&gt;&gt;tsmiExpand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;СвернутьВсеToolStripMenuItem.Name" xml:space="preserve">
+    <value>СвернутьВсеToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;СвернутьВсеToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileToolStripMenuItem.Name" xml:space="preserve">
+    <value>FileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpenToolStripMenuItem.Name" xml:space="preserve">
+    <value>OpenToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;OpenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiLoad.Name" xml:space="preserve">
+    <value>tsmiLoad</value>
+  </data>
+  <data name="&gt;&gt;tsmiLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiSave.Name" xml:space="preserve">
+    <value>tsmiSave</value>
+  </data>
+  <data name="&gt;&gt;tsmiSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;СохранитьКакToolStripMenuItem.Name" xml:space="preserve">
+    <value>СохранитьКакToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;СохранитьКакToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;СвойстваКвестаToolStripMenuItem.Name" xml:space="preserve">
+    <value>СвойстваКвестаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;СвойстваКвестаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator8.Name" xml:space="preserve">
+    <value>ToolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiRun.Name" xml:space="preserve">
+    <value>tsmiRun</value>
+  </data>
+  <data name="&gt;&gt;tsmiRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator9.Name" xml:space="preserve">
+    <value>ToolStripSeparator9</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ПоследниеФайлыToolStripMenuItem.Name" xml:space="preserve">
+    <value>ПоследниеФайлыToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ПоследниеФайлыToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ВыходИзРедактораToolStripMenuItem.Name" xml:space="preserve">
+    <value>ВыходИзРедактораToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ВыходИзРедактораToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ВыходИзПрограммыToolStripMenuItem.Name" xml:space="preserve">
+    <value>ВыходИзПрограммыToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ВыходИзПрограммыToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditToolStripMenuItem.Name" xml:space="preserve">
+    <value>EditToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;EditToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiUndo.Name" xml:space="preserve">
+    <value>tsmiUndo</value>
+  </data>
+  <data name="&gt;&gt;tsmiUndo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiRedo.Name" xml:space="preserve">
+    <value>tsmiRedo</value>
+  </data>
+  <data name="&gt;&gt;tsmiRedo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiCopy.Name" xml:space="preserve">
+    <value>tsmiCopy</value>
+  </data>
+  <data name="&gt;&gt;tsmiCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiCut.Name" xml:space="preserve">
+    <value>tsmiCut</value>
+  </data>
+  <data name="&gt;&gt;tsmiCut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiPaste.Name" xml:space="preserve">
+    <value>tsmiPaste</value>
+  </data>
+  <data name="&gt;&gt;tsmiPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator5.Name" xml:space="preserve">
+    <value>ToolStripSeparator5</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiSelLine.Name" xml:space="preserve">
+    <value>tsmiSelLine</value>
+  </data>
+  <data name="&gt;&gt;tsmiSelLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiComment.Name" xml:space="preserve">
+    <value>tsmiComment</value>
+  </data>
+  <data name="&gt;&gt;tsmiComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiUncomment.Name" xml:space="preserve">
+    <value>tsmiUncomment</value>
+  </data>
+  <data name="&gt;&gt;tsmiUncomment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiKeyboard.Name" xml:space="preserve">
+    <value>tsmiKeyboard</value>
+  </data>
+  <data name="&gt;&gt;tsmiKeyboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiWrap.Name" xml:space="preserve">
+    <value>tsmiWrap</value>
+  </data>
+  <data name="&gt;&gt;tsmiWrap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiDefVars.Name" xml:space="preserve">
+    <value>tsmiDefVars</value>
+  </data>
+  <data name="&gt;&gt;tsmiDefVars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiExec.Name" xml:space="preserve">
+    <value>tsmiExec</value>
+  </data>
+  <data name="&gt;&gt;tsmiExec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
+    <value>ToolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ФорматированиеТекстаToolStripMenuItem.Name" xml:space="preserve">
+    <value>ФорматированиеТекстаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ФорматированиеТекстаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiB.Name" xml:space="preserve">
+    <value>tsmiB</value>
+  </data>
+  <data name="&gt;&gt;tsmiB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiI.Name" xml:space="preserve">
+    <value>tsmiI</value>
+  </data>
+  <data name="&gt;&gt;tsmiI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiU.Name" xml:space="preserve">
+    <value>tsmiU</value>
+  </data>
+  <data name="&gt;&gt;tsmiU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiSup.Name" xml:space="preserve">
+    <value>tsmiSup</value>
+  </data>
+  <data name="&gt;&gt;tsmiSup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiSub.Name" xml:space="preserve">
+    <value>tsmiSub</value>
+  </data>
+  <data name="&gt;&gt;tsmiSub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator3.Name" xml:space="preserve">
+    <value>ToolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem3.Name" xml:space="preserve">
+    <value>ToolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiLeft.Name" xml:space="preserve">
+    <value>tsmiLeft</value>
+  </data>
+  <data name="&gt;&gt;tsmiLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiCenter.Name" xml:space="preserve">
+    <value>tsmiCenter</value>
+  </data>
+  <data name="&gt;&gt;tsmiCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiRight.Name" xml:space="preserve">
+    <value>tsmiRight</value>
+  </data>
+  <data name="&gt;&gt;tsmiRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiJustify.Name" xml:space="preserve">
+    <value>tsmiJustify</value>
+  </data>
+  <data name="&gt;&gt;tsmiJustify.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiP.Name" xml:space="preserve">
+    <value>tsmiP</value>
+  </data>
+  <data name="&gt;&gt;tsmiP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiH1.Name" xml:space="preserve">
+    <value>tsmiH1</value>
+  </data>
+  <data name="&gt;&gt;tsmiH1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiH2.Name" xml:space="preserve">
+    <value>tsmiH2</value>
+  </data>
+  <data name="&gt;&gt;tsmiH2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiH3.Name" xml:space="preserve">
+    <value>tsmiH3</value>
+  </data>
+  <data name="&gt;&gt;tsmiH3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiSpan.Name" xml:space="preserve">
+    <value>tsmiSpan</value>
+  </data>
+  <data name="&gt;&gt;tsmiSpan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiFontSize.Name" xml:space="preserve">
+    <value>tsmiFontSize</value>
+  </data>
+  <data name="&gt;&gt;tsmiFontSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiColor.Name" xml:space="preserve">
+    <value>tsmiColor</value>
+  </data>
+  <data name="&gt;&gt;tsmiColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiSpecialChars.Name" xml:space="preserve">
+    <value>tsmiSpecialChars</value>
+  </data>
+  <data name="&gt;&gt;tsmiSpecialChars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiHR.Name" xml:space="preserve">
+    <value>tsmiHR</value>
+  </data>
+  <data name="&gt;&gt;tsmiHR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiBR.Name" xml:space="preserve">
+    <value>tsmiBR</value>
+  </data>
+  <data name="&gt;&gt;tsmiBR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiSpace.Name" xml:space="preserve">
+    <value>tsmiSpace</value>
+  </data>
+  <data name="&gt;&gt;tsmiSpace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiDash.Name" xml:space="preserve">
+    <value>tsmiDash</value>
+  </data>
+  <data name="&gt;&gt;tsmiDash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiQuotes.Name" xml:space="preserve">
+    <value>tsmiQuotes</value>
+  </data>
+  <data name="&gt;&gt;tsmiQuotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiEuro.Name" xml:space="preserve">
+    <value>tsmiEuro</value>
+  </data>
+  <data name="&gt;&gt;tsmiEuro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiSelector.Name" xml:space="preserve">
+    <value>tsmiSelector</value>
+  </data>
+  <data name="&gt;&gt;tsmiSelector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator4.Name" xml:space="preserve">
+    <value>ToolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiChars.Name" xml:space="preserve">
+    <value>tsmiChars</value>
+  </data>
+  <data name="&gt;&gt;tsmiChars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiImage.Name" xml:space="preserve">
+    <value>tsmiImage</value>
+  </data>
+  <data name="&gt;&gt;tsmiImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiTable.Name" xml:space="preserve">
+    <value>tsmiTable</value>
+  </data>
+  <data name="&gt;&gt;tsmiTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiList.Name" xml:space="preserve">
+    <value>tsmiList</value>
+  </data>
+  <data name="&gt;&gt;tsmiList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiMarquee.Name" xml:space="preserve">
+    <value>tsmiMarquee</value>
+  </data>
+  <data name="&gt;&gt;tsmiMarquee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiIFrame.Name" xml:space="preserve">
+    <value>tsmiIFrame</value>
+  </data>
+  <data name="&gt;&gt;tsmiIFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;СервисToolStripMenuItem.Name" xml:space="preserve">
+    <value>СервисToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;СервисToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiFind.Name" xml:space="preserve">
+    <value>tsmiFind</value>
+  </data>
+  <data name="&gt;&gt;tsmiFind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiFindNext.Name" xml:space="preserve">
+    <value>tsmiFindNext</value>
+  </data>
+  <data name="&gt;&gt;tsmiFindNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiFindGlobal.Name" xml:space="preserve">
+    <value>tsmiFindGlobal</value>
+  </data>
+  <data name="&gt;&gt;tsmiFindGlobal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator6.Name" xml:space="preserve">
+    <value>ToolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;НастройкиПрограммыToolStripMenuItem.Name" xml:space="preserve">
+    <value>НастройкиПрограммыToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;НастройкиПрограммыToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiExecuteScript.Name" xml:space="preserve">
+    <value>tsmiExecuteScript</value>
+  </data>
+  <data name="&gt;&gt;tsmiExecuteScript.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiCopyAsHTML.Name" xml:space="preserve">
+    <value>tsmiCopyAsHTML</value>
+  </data>
+  <data name="&gt;&gt;tsmiCopyAsHTML.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator7.Name" xml:space="preserve">
+    <value>ToolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiClassEditor.Name" xml:space="preserve">
+    <value>tsmiClassEditor</value>
+  </data>
+  <data name="&gt;&gt;tsmiClassEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiRestoreElement.Name" xml:space="preserve">
+    <value>tsmiRestoreElement</value>
+  </data>
+  <data name="&gt;&gt;tsmiRestoreElement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmigHighLight.Name" xml:space="preserve">
+    <value>tsmigHighLight</value>
+  </data>
+  <data name="&gt;&gt;tsmigHighLight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiHighLightFull.Name" xml:space="preserve">
+    <value>tsmiHighLightFull</value>
+  </data>
+  <data name="&gt;&gt;tsmiHighLightFull.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiHighLightDesignate.Name" xml:space="preserve">
+    <value>tsmiHighLightDesignate</value>
+  </data>
+  <data name="&gt;&gt;tsmiHighLightDesignate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiHighLightNo.Name" xml:space="preserve">
+    <value>tsmiHighLightNo</value>
+  </data>
+  <data name="&gt;&gt;tsmiHighLightNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ПомощьToolStripMenuItem.Name" xml:space="preserve">
+    <value>ПомощьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ПомощьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiShowAdditionalClasses.Name" xml:space="preserve">
+    <value>tsmiShowAdditionalClasses</value>
+  </data>
+  <data name="&gt;&gt;tsmiShowAdditionalClasses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ПомощьToolStripMenuItem1.Name" xml:space="preserve">
+    <value>ПомощьToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;ПомощьToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ttMain.Name" xml:space="preserve">
+    <value>ttMain</value>
+  </data>
+  <data name="&gt;&gt;ttMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbDefVars.Name" xml:space="preserve">
+    <value>tsbDefVars</value>
+  </data>
+  <data name="&gt;&gt;tsbDefVars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbUndo.Name" xml:space="preserve">
+    <value>tsbUndo</value>
+  </data>
+  <data name="&gt;&gt;tsbUndo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbRedo.Name" xml:space="preserve">
+    <value>tsbRedo</value>
+  </data>
+  <data name="&gt;&gt;tsbRedo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbWrap.Name" xml:space="preserve">
+    <value>tsbWrap</value>
+  </data>
+  <data name="&gt;&gt;tsbWrap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbComment.Name" xml:space="preserve">
+    <value>tsbComment</value>
+  </data>
+  <data name="&gt;&gt;tsbComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbUncomment.Name" xml:space="preserve">
+    <value>tsbUncomment</value>
+  </data>
+  <data name="&gt;&gt;tsbUncomment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator10.Name" xml:space="preserve">
+    <value>ToolStripSeparator10</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbBR.Name" xml:space="preserve">
+    <value>tsbBR</value>
+  </data>
+  <data name="&gt;&gt;tsbBR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbHR.Name" xml:space="preserve">
+    <value>tsbHR</value>
+  </data>
+  <data name="&gt;&gt;tsbHR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbB.Name" xml:space="preserve">
+    <value>tsbB</value>
+  </data>
+  <data name="&gt;&gt;tsbB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbI.Name" xml:space="preserve">
+    <value>tsbI</value>
+  </data>
+  <data name="&gt;&gt;tsbI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbU.Name" xml:space="preserve">
+    <value>tsbU</value>
+  </data>
+  <data name="&gt;&gt;tsbU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbSup.Name" xml:space="preserve">
+    <value>tsbSup</value>
+  </data>
+  <data name="&gt;&gt;tsbSup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbSub.Name" xml:space="preserve">
+    <value>tsbSub</value>
+  </data>
+  <data name="&gt;&gt;tsbSub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbLeft.Name" xml:space="preserve">
+    <value>tsbLeft</value>
+  </data>
+  <data name="&gt;&gt;tsbLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbCenter.Name" xml:space="preserve">
+    <value>tsbCenter</value>
+  </data>
+  <data name="&gt;&gt;tsbCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbRight.Name" xml:space="preserve">
+    <value>tsbRight</value>
+  </data>
+  <data name="&gt;&gt;tsbRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbJustify.Name" xml:space="preserve">
+    <value>tsbJustify</value>
+  </data>
+  <data name="&gt;&gt;tsbJustify.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbTable.Name" xml:space="preserve">
+    <value>tsbTable</value>
+  </data>
+  <data name="&gt;&gt;tsbTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbColor.Name" xml:space="preserve">
+    <value>tsbColor</value>
+  </data>
+  <data name="&gt;&gt;tsbColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbFontSize.Name" xml:space="preserve">
+    <value>tsbFontSize</value>
+  </data>
+  <data name="&gt;&gt;tsbFontSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbImage.Name" xml:space="preserve">
+    <value>tsbImage</value>
+  </data>
+  <data name="&gt;&gt;tsbImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbMarquee.Name" xml:space="preserve">
+    <value>tsbMarquee</value>
+  </data>
+  <data name="&gt;&gt;tsbMarquee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbList.Name" xml:space="preserve">
+    <value>tsbList</value>
+  </data>
+  <data name="&gt;&gt;tsbList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbSpan.Name" xml:space="preserve">
+    <value>tsbSpan</value>
+  </data>
+  <data name="&gt;&gt;tsbSpan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbP.Name" xml:space="preserve">
+    <value>tsbP</value>
+  </data>
+  <data name="&gt;&gt;tsbP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbH1.Name" xml:space="preserve">
+    <value>tsbH1</value>
+  </data>
+  <data name="&gt;&gt;tsbH1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbH2.Name" xml:space="preserve">
+    <value>tsbH2</value>
+  </data>
+  <data name="&gt;&gt;tsbH2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbH3.Name" xml:space="preserve">
+    <value>tsbH3</value>
+  </data>
+  <data name="&gt;&gt;tsbH3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbExec.Name" xml:space="preserve">
+    <value>tsbExec</value>
+  </data>
+  <data name="&gt;&gt;tsbExec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator11.Name" xml:space="preserve">
+    <value>ToolStripSeparator11</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbSeek.Name" xml:space="preserve">
+    <value>tsbSeek</value>
+  </data>
+  <data name="&gt;&gt;tsbSeek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator12.Name" xml:space="preserve">
+    <value>ToolStripSeparator12</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbSelector.Name" xml:space="preserve">
+    <value>tsbSelector</value>
+  </data>
+  <data name="&gt;&gt;tsbSelector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbSpace.Name" xml:space="preserve">
+    <value>tsbSpace</value>
+  </data>
+  <data name="&gt;&gt;tsbSpace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbDash.Name" xml:space="preserve">
+    <value>tsbDash</value>
+  </data>
+  <data name="&gt;&gt;tsbDash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbQuotes.Name" xml:space="preserve">
+    <value>tsbQuotes</value>
+  </data>
+  <data name="&gt;&gt;tsbQuotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbChars.Name" xml:space="preserve">
+    <value>tsbChars</value>
+  </data>
+  <data name="&gt;&gt;tsbChars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator17.Name" xml:space="preserve">
+    <value>ToolStripSeparator17</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbgHighLight.Name" xml:space="preserve">
+    <value>tsbgHighLight</value>
+  </data>
+  <data name="&gt;&gt;tsbgHighLight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbHighLightFull.Name" xml:space="preserve">
+    <value>tsbHighLightFull</value>
+  </data>
+  <data name="&gt;&gt;tsbHighLightFull.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbHighLightDesignate.Name" xml:space="preserve">
+    <value>tsbHighLightDesignate</value>
+  </data>
+  <data name="&gt;&gt;tsbHighLightDesignate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbHighLightNo.Name" xml:space="preserve">
+    <value>tsbHighLightNo</value>
+  </data>
+  <data name="&gt;&gt;tsbHighLightNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbRestoreInitial.Name" xml:space="preserve">
+    <value>tsbRestoreInitial</value>
+  </data>
+  <data name="&gt;&gt;tsbRestoreInitial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbFullScreen.Name" xml:space="preserve">
+    <value>tsbFullScreen</value>
+  </data>
+  <data name="&gt;&gt;tsbFullScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbQ.Name" xml:space="preserve">
+    <value>tsbQ</value>
+  </data>
+  <data name="&gt;&gt;tsbQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbString.Name" xml:space="preserve">
+    <value>tsbString</value>
+  </data>
+  <data name="&gt;&gt;tsbString.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbMath.Name" xml:space="preserve">
+    <value>tsbMath</value>
+  </data>
+  <data name="&gt;&gt;tsbMath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbDate.Name" xml:space="preserve">
+    <value>tsbDate</value>
+  </data>
+  <data name="&gt;&gt;tsbDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbArr.Name" xml:space="preserve">
+    <value>tsbArr</value>
+  </data>
+  <data name="&gt;&gt;tsbArr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbFile.Name" xml:space="preserve">
+    <value>tsbFile</value>
+  </data>
+  <data name="&gt;&gt;tsbFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbCode.Name" xml:space="preserve">
+    <value>tsbCode</value>
+  </data>
+  <data name="&gt;&gt;tsbCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbL.Name" xml:space="preserve">
+    <value>tsbL</value>
+  </data>
+  <data name="&gt;&gt;tsbL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbObj.Name" xml:space="preserve">
+    <value>tsbObj</value>
+  </data>
+  <data name="&gt;&gt;tsbObj.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbM.Name" xml:space="preserve">
+    <value>tsbM</value>
+  </data>
+  <data name="&gt;&gt;tsbM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbT.Name" xml:space="preserve">
+    <value>tsbT</value>
+  </data>
+  <data name="&gt;&gt;tsbT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator14.Name" xml:space="preserve">
+    <value>ToolStripSeparator14</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbMap.Name" xml:space="preserve">
+    <value>tsbMap</value>
+  </data>
+  <data name="&gt;&gt;tsbMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbMed.Name" xml:space="preserve">
+    <value>tsbMed</value>
+  </data>
+  <data name="&gt;&gt;tsbMed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbHer.Name" xml:space="preserve">
+    <value>tsbHer</value>
+  </data>
+  <data name="&gt;&gt;tsbHer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbMg.Name" xml:space="preserve">
+    <value>tsbMg</value>
+  </data>
+  <data name="&gt;&gt;tsbMg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbAb.Name" xml:space="preserve">
+    <value>tsbAb</value>
+  </data>
+  <data name="&gt;&gt;tsbAb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbArmy.Name" xml:space="preserve">
+    <value>tsbArmy</value>
+  </data>
+  <data name="&gt;&gt;tsbArmy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbBat.Name" xml:space="preserve">
+    <value>tsbBat</value>
+  </data>
+  <data name="&gt;&gt;tsbBat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddbWindows.Name" xml:space="preserve">
+    <value>tsddbWindows</value>
+  </data>
+  <data name="&gt;&gt;tsddbWindows.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiCm.Name" xml:space="preserve">
+    <value>tsmiCm</value>
+  </data>
+  <data name="&gt;&gt;tsmiCm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiLW.Name" xml:space="preserve">
+    <value>tsmiLW</value>
+  </data>
+  <data name="&gt;&gt;tsmiLW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiDW.Name" xml:space="preserve">
+    <value>tsmiDW</value>
+  </data>
+  <data name="&gt;&gt;tsmiDW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiOW.Name" xml:space="preserve">
+    <value>tsmiOW</value>
+  </data>
+  <data name="&gt;&gt;tsmiOW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiAW.Name" xml:space="preserve">
+    <value>tsmiAW</value>
+  </data>
+  <data name="&gt;&gt;tsmiAW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiMgW.Name" xml:space="preserve">
+    <value>tsmiMgW</value>
+  </data>
+  <data name="&gt;&gt;tsmiMgW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator15.Name" xml:space="preserve">
+    <value>ToolStripSeparator15</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbFunc.Name" xml:space="preserve">
+    <value>tsbFunc</value>
+  </data>
+  <data name="&gt;&gt;tsbFunc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbVar.Name" xml:space="preserve">
+    <value>tsbVar</value>
+  </data>
+  <data name="&gt;&gt;tsbVar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator16.Name" xml:space="preserve">
+    <value>ToolStripSeparator16</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbAddUserClass.Name" xml:space="preserve">
+    <value>tsbAddUserClass</value>
+  </data>
+  <data name="&gt;&gt;tsbAddUserClass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLstGroupIcons.Name" xml:space="preserve">
+    <value>imgLstGroupIcons</value>
+  </data>
+  <data name="&gt;&gt;imgLstGroupIcons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fsWatcher.Name" xml:space="preserve">
+    <value>fsWatcher</value>
+  </data>
+  <data name="&gt;&gt;fsWatcher.Type" xml:space="preserve">
+    <value>System.IO.FileSystemWatcher, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMainEditor</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
